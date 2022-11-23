@@ -1,18 +1,17 @@
 <template>
-  
   <div class="home">
-    <h1>This is an Home page</h1>
-    
+    <HomePage />
   </div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
+import { Options, Vue } from "vue-class-component";
+import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import HomePage from "@/components/HomePage.vue";
 @Options({
   components: {
     HelloWorld,
+    HomePage,
   },
 })
 export default class HomeView extends Vue {}
