@@ -14,14 +14,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-navbar">
-          <li class="nav-item">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-navbar ">
+          <li class="nav-item nav-margin-home">
             <router-link to="/" class="nav-link active navbar-text">Home</router-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-margin-home">
             <router-link to="/about" class="nav-link active navbar-text">Portfolio</router-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-margin-home">
             <router-link to="/about" class="nav-link active navbar-text">Contact</router-link>
           </li>
         </ul>
@@ -64,5 +64,8 @@ nav a.router-link-exact-active {
   width: 100%;
   justify-content: flex-end;
   font-weight: bold;
+}
+.nav-margin-home{
+  margin-right: 20px;
 }
 </style>
