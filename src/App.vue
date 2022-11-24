@@ -1,7 +1,7 @@
 <template>
   <nav id="nav1" class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="" href="#">PS</a>
+      <a class="" href="#">PS.</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -14,7 +14,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-navbar ">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-navbar">
           <li class="nav-item nav-margin-home">
             <router-link to="/" class="nav-link active navbar-text">Home</router-link>
           </li>
@@ -65,7 +65,7 @@ nav a.router-link-exact-active {
   justify-content: flex-end;
   font-weight: bold;
 }
-.nav-margin-home{
+.nav-margin-home {
   margin-right: 20px;
 }
 </style>
