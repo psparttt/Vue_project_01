@@ -4,6 +4,7 @@
     <h6 class="text-white text-bold">I always like to learn new things.The skills that are available</h6>
     <h6 class="text-white text-bold">now are Getting the job done in a timely manner and i can solve</h6>
     <h6 class="text-white text-bold">immediate problems as well.</h6>
+    <h6 class="text-warning text-bold mt-20">My Skill</h6>
     <div class="box-flex">
       <div class="bg-box">
         <h2>test</h2>
@@ -36,19 +37,22 @@ export default {
   font-weight: bold;
 }
 .text-padding {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 .bg-box {
-  border-radius: 5px;
-  margin-left: 25px;
+  border-radius: 10px;
+  margin-left: 40px;
   width: 200px;
   height: 200px;
   background: #212121;
 }
 .box-flex {
   margin: 0px 50px 0px 50px;
-  padding-top: 30px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
+}
+.mt-20{
+  margin-top: 20px;
 }
 </style>

@@ -14,8 +14,8 @@
           <button type="button" class="btn btn-outline-warning font-left btn-contact">CONTACT ME</button>
         </div>
       </div>
-      <div class="col-4">
-        <img class="david-size" src="./517-5176868_david-beckham-png.png" alt="" />
+      <div class="col-4 ">
+        <img class="height-row"  src="./517-5176868_david-beckham-png.png" alt="" />
       </div>
       <div class="col-4 height-row">
         <div id="padding-name">
@@ -65,9 +65,7 @@ h6 {
 .btn-contact {
   margin-top: 20px;
 }
-.david-size {
-  height: 54%;
-}
+
 .height-row {
   height: 500px;
 }
