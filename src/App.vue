@@ -24,6 +24,9 @@
           <li class="nav-item nav-margin-home">
             <router-link to="/about" class="nav-link active navbar-text">Contact</router-link>
           </li>
+          <li class="nav-item nav-margin-home">
+            <router-link to="/api" class="nav-link active navbar-text">API</router-link>
+          </li>
         </ul>
       </div>
     </div>

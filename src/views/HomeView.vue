@@ -1,11 +1,11 @@
 <template>
   <div class="home">
-    <FirstnameHome />
+    <FirstnameHome :nickName="nickName" :profile="profile" />
     <WorkExperian />
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import { Options, Vue } from "vue-class-component";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 import FirstnameHome from "@/components/FirstnameHome.vue";
@@ -17,5 +17,16 @@ import WorkExperian from "@/components/WorkExperian.vue";
     WorkExperian,
   },
 })
-export default class HomeView extends Vue {}
+export default class HomeView extends Vue {
+  data() {
+    return {
+      nickName: "ploy",
+      profile: {
+        surName: "Pongsapus",
+        lartName: "Subjeerakul",
+        position: "Font-END",
+      },
+    };
+  }
+}
 </script>
